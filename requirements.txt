@@ -5,4 +5,3 @@ bcrypt==4.0.1
 fpdf2>=3.8.0
 pandas>=1.5.0
 requests>=2.30.0
-
