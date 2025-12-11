@@ -1,3 +1,4 @@
+# pdf_generator.py
 from fpdf import FPDF
 import os, datetime
 
@@ -27,4 +28,5 @@ def generate_application_pdf(app_data: dict, output_dir: str = "uploads") -> str
 
     pdf.output(filepath)
     return filepath
+
 
